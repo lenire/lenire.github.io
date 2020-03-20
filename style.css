@@ -43,3 +43,23 @@ background: -webkit-linear-gradient(#005678, #05d9e8);
   border-color: #ff2a6d;
   font-size: 30px;
 }
+
+.glow {
+  font-size: 80px;
+  font-family: 'Italianno', serif;
+  color: #05d8e8;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 3px #05d9e8, 0 0 5px #d1f7ff, 0 0 5px #d1f7ff, 0 0 13px #d1f7ff, 0 0 9px #d1f7ff, 0 0 8px #d1f7ff, 0 0 10px #d1f7ff;
+  }
+  
+  to {
+    text-shadow: 0 0 9px #fff, 0 0 10px #d1f7ff, 0 0 5px #d1f7ff, 0 0 5px #d1f7ff, 0 0 6px #d1f7ff, 0 0 7px #d1f7ff, 0 0 7px #d1f7f;
+  }
+}
