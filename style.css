@@ -37,8 +37,9 @@ background: -webkit-linear-gradient(#005678, #05d9e8);
   text-align: center;
   background: #01012b;
   color: white;
-  border-right: 50px;
-  border-width: 10px;
+
+  border-width: 10px 50px 10px 10px;
+     border-style:inset;
   border-color: #ff2a6d;
   font-size: 30px;
 }
