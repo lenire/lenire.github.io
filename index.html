@@ -10,6 +10,40 @@
   <h1 class="glow">Notes from Quarantine</h1>
   <p>Simon Ponder</p>
 </div>
+
+<hr></hr>
+<h1>Can't stop the signal/h1>
+    <h6>March 22, 2020 </h6>      
+    <hr></hr>
+    <p>Today was two big projects for me.  Build a Light Theremin with my Arduino and turn my Raspberry PI into a pirate radio station.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OJ99SFnLbqA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p> I followed the tutorial in my book, and was able to create it in no time. It is really annoying, but it was neat to see how the photo sensor works. The next tutorial turns it into a keyboard, but I wonder if you can combine the two inputs as they make a more interesting sound.</p>
+    <p>The other big project I worked on today, was to turn my Raspberry PI into a pirate radio station. </p>
+
+    <p>I used the following commands to get my Raspberry PI setup</p>
+
+    <p>pi@raspberrypi:~/PiFmRds/src $ history
+      sudeo apt-get update
+      sudo apt-get upgrade
+      sudo apt-get install libsox-fmt-mp3 
+      sudo apt-get install libsndfile1-dev 
+      sudo apt-get install git 
+      git clone https://github.com/ChristopheJacquet/PiFmRds.git 
+      cd PiFmRds/src 
+      make clean 
+      make
+    </p>
+    <p>The following command then turned on the transmitter to get the Raspberry PI to start broadcasting: </p>
+     <p> sudo ./pi_fm_rds</p>
+
+     <p>I do not actually have a radio setup in my home, so the Pirate Station was short lived.</p>
+
+     <p> But I will be uploading it again, and then running my music through it.</p>
+
+  
+
+
 <hr></hr>
 <h1>Blink</h1>
     <h6>March 20, 2020 </h6>      
