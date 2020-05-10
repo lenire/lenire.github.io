@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Blink"
+date:   2020-03-20 00:01:46 -0500
+categories: arduino
+---
+Since the post went up yesterday, I took some steps to research the next few things on this design, since this is a living design some things will change over the next few weeks.
+
+  One of the things I am really proud of is the header neon sign. This is done in pure CSS after looking through a few tutorials. I am going to try and clean up the animation and make it look more like an actual neon sign, and then apply that to some of the features in the sight, such as the Horizontal Rule tag.
+
+   Most of the commits to this github repository have been CSS changes, as I figure things out and improve the style of the page. 
+
+ Today I spent some time doing a tutorial on my Arduino, the lesson was about making a console for your space ship. Whatever it takes it make it engaging I guess.
+
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/xHkuJ2Y"><a href="//imgur.com/a/xHkuJ2Y"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+  This involved some coding from the Arduino IDE to push the code to this little device. I was really nervous as I didn't know anything was working, until I pushed the code to the device and then it lit up and worked.
