@@ -1,0 +1,65 @@
+body {
+  margin: 50px 50px 50px 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #01012b; }
+
+[tabindex="-1"]:focus {
+  outline: 0 !important; }
+
+  hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem; 
+background: -webkit-linear-gradient(#005678, #05d9e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+background: -webkit-linear-gradient(#005678, #05d9e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   }
+
+   .header {
+  padding: 60px;
+  text-align: center;
+  background: #01012b;
+  color: white;
+
+  border-width: 10px 50px 10px 10px;
+     border-style:inset;
+  border-color: #ff2a6d;
+  font-size: 30px;
+}
+
+.glow {
+  font-size: 80px;
+  font-family: 'Italianno', serif;
+  color: #05d8e8;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 3px #05d9e8, 0 0 5px #d1f7ff, 0 0 5px #d1f7ff, 0 0 13px #d1f7ff, 0 0 9px #d1f7ff, 0 0 8px #d1f7ff, 0 0 10px #d1f7ff;
+  }
+  
+  to {
+    text-shadow: 0 0 9px #fff, 0 0 10px #d1f7ff, 0 0 5px #d1f7ff, 0 0 5px #d1f7ff, 0 0 6px #d1f7ff, 0 0 7px #d1f7ff, 0 0 7px #d1f7f;
+  }
+}
