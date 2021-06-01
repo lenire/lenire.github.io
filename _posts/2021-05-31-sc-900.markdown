@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "How I passed the SC-900"
+date: 2021-05-20 -0500
+categories: ActiveDirectory, Certification, Azure, Cloud
+---
+I forgot to post this, as I have been studying a lot lately for some additional certifications in the Office 365 environment. The first of which I earned a few weeks ago which is the SC-900.
+
+What is it?
+
+The SC-900 is not limited to Office 365, but covers everything with Security and Compliance in the Azure and Office 365 ecosystem. It is the introductory certificate to the concepts of Security, Compliance, Identity and the high level overview of the product offerings for it.
+
+The Exam is the fundamentals of Security, Compliance and Identity fundamentals.
+
+Skills measured
+Describe the concepts of security, compliance, and identity
+Describe the capabilities of Microsoft identity and access management solutions
+Describe the capabilities of Microsoft security solutions
+Describe the capabilities of Microsoft compliance solutions
+
+![Certification Badge for SC-900]({{ site.url }}/assets/sc900.jpg)
+
+How I Passed?
+
+The first step of course is to go through all of the [learn modules]([https://docs.microsoft.com/en-us/learn/certifications/exams/sc-900]) on Microsoft.com.
+
+While studying for it, I did find this fantastic YouTube video featured below. It is 2 hours long, but covers everything really nicely.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bz-8jM3jg-8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Should I take the exam?
+
+Yes, absolutely. If you are not familiar with the Security concepts related to azure, or if you have not covered all of the Security and Compliance offerings in 365, it is really good to always cover the fundamentals, especially when digging into the bigger concepts of the Higher Exams, it helps to atleast study the basics.
