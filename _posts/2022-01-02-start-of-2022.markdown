@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Let us start 2022"
+date: 2022-01-02 -0500
+categories: Goals, Certification, Projects
+---
+
+The year has come to a close. I have been meaning to write this post for a few days, but keep getting distracted with other things.
+
+Last year there were lots of changes. I shfited roles at work and took on additional duties before getting a promotion into an engineer positition. I earned a couple of certifications to help with my specialized engineering role.
+
+I earned the MS500 and the SC900 this past year. I have been studying for more certs and will be adding them to my portfolio.
+
+I have been busy taking crash courses in migrations and Intune, with this new role, but my goals for 2022 are as follows:
+
+1. Continue getting better with PowerShell
+2. Earn a few more certifications( including some azure certs, maybe AWS, so I have some background there)
+3. Learn Pearl (using the sololearn app)
+4. Finally understand how intune works and better ways to troubleshoot it.
